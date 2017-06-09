@@ -6,7 +6,7 @@ This assignment is to ensure that you get practice with basic Java. For full mar
 
 ## Tic-Tac-Toe++
 
-![tic-tac-toe-image](tac.png)
+![tic-tac-toe-image](pics/tac.png)
 
 You will implement a variation of the game [tic-tac-toe](https://en.wikipedia.org/wiki/Tic-tac-toe). Our version of the game will allow for different sizes of the board and a different winning condition. The _normal_ game is played on a 3x3 grid and the winning condition is that a player (either X or O) has three of their symbol in a row (either vertically, horizontally or diagonally). Our game will be played an NxM grid and the winning condition will be when K of the same symbols are in a row (again, either vertically, horizontally or diagonally). Here, N, M and K will be specified by an initialization file that your game will read when it starts. We will use N-M-K to denote the parameters of a given game. For example, a regular game of tic-tac-toe is a 3-3-3 game, while a 12-5-4 game has a grid with 12 rows, 5 columns and the winning condition is 4 in a row. 
 
