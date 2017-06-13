@@ -57,7 +57,7 @@ When the game ends, a useful message is di
 1. You must use the `Scanner` class for user input.
 2. You must use a 2-dimensional array of type `Character` to represent the game grid.  
 3. You can use `String` and `StringBuilder` objects as you need.
-4. You should not use any other classes in your code. (There will be some other classes for reading the init file, but you won't be coding with these yourself in this assignment.)
+4. You should not use any other classes in your code. (There will be some other classes for reading the init file, but you won't be coding with these yourself in this assignment.) You can use the `Math` class if you wish.
 5. Your `main` method will drive your game by calling other static methods in your class. 	The overall control flow of your game will be in `main` but the details of the different actions will be in other static methods.
 6. Particular tasks should have their own method. (This is procedural programming!)
 7. If zero command line arguments are given then your game will be between one human player and the computer (the default). The human player will play first and they will play X. (The computer will be O.)
