@@ -17,7 +17,7 @@ Start by cloning the start-up code found for Assignment 1 on the course GitHub p
 
 Here is the full specification for this assignment.
 
-### submit1.txt [10 marks]
+### submit.1 [10 marks]
 
 Your `submit.1` will consist of __four__ lines that consist of: your student ID, your cmail username, your name and your GitHub username (in that order). Give your full cunet email address (without the dots in your name). For example, a sample file might look like 
 
@@ -28,11 +28,11 @@ Cat Kittenish
 @supercoderkitty
 ```
 
-Note: The file is a plain text file. Do NOT change the format of the file anything else (such as rich text, or .docx, etc). The extension is `.1`. Be sure to check that your operating system (in particular if you are using Windows) does not have a hidden `.txt` extension for this file.
+Note: The file must is a plain text file. Do NOT change the format of the file anything else (such as rich text, or .docx, etc). The extension is `.1`. Be sure to check that your operating system (in particular if you are using Windows) does not have a hidden `.txt` extension for this file.
 
 ### init [0 marks]
 
-The initialization file consists of three lines that specify N, M and K, respectively for the game. N is the number of rows in the grid, M is the number of columns and K is the number of symbols needed in a row to trigger a win. You do not have to submit (_commit_) this file. However, you _should_ be using this file to test that your code works on a game that is not standard. The default game is a regular game of tic-tac-toe with all parameters equal to 3.
+The initialization file consists of three lines that specify N, M and K, respectively for the game. N is the number of rows in the grid, M is the number of columns and K is the number of symbols needed in a row to trigger a win. You do not have to submit (_commit_) this file. However, you _should_ be using this file to test that your code works on a game that is not standard. The default game is a regular game of tic-tac-toe with all parameters equal to 3. We will test your code with various different configurations (N,M,K values).
 
 
 ### TicTacToeGame.java [90 marks]
