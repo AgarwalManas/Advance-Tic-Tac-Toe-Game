@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 1 (Due Monday, July 27 at 5:30pm)   
 ---
 
 This assignment is to ensure that you get practice with basic Java. For full marks in the assignment, you will need to successfully use arrays, String objects, Scanner objects, control flow constructs (branching and looping) and implement static functions. In this assignment, your code will follow the procedural programming paradigm (not object oriented). 
