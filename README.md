@@ -92,7 +92,7 @@ Best win        : 6 in a row
 ```
 18. There will be _no_ other input asked for or expected from the user during the game. 
 19. Your game must play a valid game of tic-tac-toe++.
-
+20. Remember to `push` your changes back to your master repository on GitHib (so that your assignment can be graded).
 
 ##### Example
 A run of a human versus computer 2-4-3 game might look like the following
