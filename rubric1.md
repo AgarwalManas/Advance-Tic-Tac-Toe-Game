@@ -1,6 +1,9 @@
-# Assignment 1 Rubric
+# Assignment 01 Rubric
+---
 ---
 
-## submit.1 [10 marks]
+## submit-01 [10 marks]
+---
 
 ## TicTacToeGame.java [90 marks]
+---
