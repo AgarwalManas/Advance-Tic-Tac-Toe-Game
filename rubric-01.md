@@ -5,8 +5,8 @@
 ## submit-01 [10 marks]
 ---
 
-/2 : plain text file (with data in it)
-/8 : four lines correct (2 marks each)
+//2 : plain text file (with data in it)
+//8 : four lines correct (2 marks each)
 
 
 ## TicTacToeGame.java [90 marks]
@@ -14,7 +14,7 @@
 
 ### human-human 10-10-10 game [65 marks]
 
-/10 : code design and style (good procedural programming, indenting, naming, etc)
+//10 : code design and style (good procedural programming, indenting, naming, etc)
 /5 : user friendly 
 /5 : accepts all position inputs (`RR r CC c`, `CC c RR r`)
 /5 : handles moves that aren't allowed correctly (repeating the input until allowed move is made)
