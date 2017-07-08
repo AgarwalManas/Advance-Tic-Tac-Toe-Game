@@ -69,7 +69,7 @@ Here is a list of the specifications for your submission. Read the entire list a
 4. You should not use any other classes in your code. There will be some other classes for reading the init file, but you won't be coding with these yourself in this assignment. You can use always the `Math` class if you wish.
 5. Your `main` method will drive your game by calling other static methods in your class. 	The overall control flow of your game will be in `main` but the details of the different actions will be in other static methods.
 6. Particular tasks should have their own method. (This is procedural programming!)
-7. If zero command line arguments are given then your game will be between one human player and the computer (the default). The human player will play first and they will play X. (The computer will be O.)
+7. If zero command line arguments are given then your game will be between one human player and the computer. The human player will play first and they will play X. The computer will initially be O and play second.
 8. If one command line argument is given and it is the string `2p`, then the game will be between two human players. Player 1 will start with X (and player 2 will be O). 
 Do not ask the players for their names. They are simply player 1 and player 2.
 9. A game ends when either a player wins or all positions are played and there is no winner (a draw). You do not need to recognize a draw until the entire grid is filled. (A better version of the game would determine if at any point in the game is must end in a draw. You are not responsible for this.)
