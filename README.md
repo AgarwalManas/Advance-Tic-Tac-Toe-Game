@@ -13,7 +13,9 @@ You will implement a variation of the game [tic-tac-toe](https://en.wikipedia.or
 
 Start by cloning this repository. It has start-up code (skeleton files) for the assignment that you will modify, commit and then push back to you github repository. The start-up consists of a single Java class (called `TicTacToeGame.java`), an initialization file for the game (called `init`) and single plain text file (called `submit-01`).  You will modify the TicTacToeGame.java and submit.1 files, `commit` your changes, and then `push` them back in order to _submit_ your assignment.
 
-A rubric (`rubric-01.md`) is also included. Be sure to read this file, but do _not_ modify it.
+If there is a method declared in the starter `TicTacToeGame.java` file, you _must_ complete it. In particular, for this assignment, you must complete the `win` method. Do __not__ change its modifiers, return type, argument list or name though. As part of testing, we will call your `win` method from a testing program with various inputs without running your game. If _anything_ other than the body of the method is modified by you, we will not be able to test it and you will receive zero marks for this part.  We will, of course, also run your game to test the actual game play. 
+
+A rubric (`rubric-01.md`) is included. Be sure to read this file, but do _not_ modify it. When your assignment is graded, a TA will edit your rubric file and push it back to your repository.
 
 
 Here is the full specification for this assignment.
@@ -60,6 +62,7 @@ r 2 r 1
 are invalid.  Note that the _first_ row or column is indicated with 0 and NOT 1.
  
 The game uses command line arguments to specify if it will be a human-human or human-computer game.  
+
 
 Here is a list of the specifications for your submission. Read the entire list and decide which items should be considered first. Don't try and finish the entire assignment in one sitting. Programming is an _incremental_ process. Do one thing at a time (starting early) and you will that progress is being made.
 
