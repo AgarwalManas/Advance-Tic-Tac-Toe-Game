@@ -478,7 +478,11 @@ public class TicTacToeGame{
 		
 								if (board[hr][hk] == ex){
 									check_ex++;
+								
+								} else if ((board[hr][hk] == empty) || (board[hr][hk] == oh)){
+									check_ex =0;
 								}
+								
 								if (check_ex == win_condition){
 									win = true;
 								}
@@ -494,6 +498,9 @@ public class TicTacToeGame{
 							
 								if (board[hr][hk] == oh){
 									check_oh++;
+									
+								} else if ((board[hr][hk] == empty) || (board[hr][hk] == ex)){
+									check_oh =0;
 								}
 								if (check_oh == win_condition){
 									win = true;
@@ -516,6 +523,9 @@ public class TicTacToeGame{
 							for(hk = hr; (hk < rows && (hk_2 + win_condition) <= rows) ; hk++){
 								if (board[hk][hc] == ex){
 									check_ex++;
+									
+								} else if ((board[hk][hc] == empty) || (board[hk][hc] == oh)){
+									check_ex =0;
 								}
 								if (check_ex == win_condition){
 									win = true;
@@ -531,6 +541,9 @@ public class TicTacToeGame{
 							for(hk = hr; (hk < rows && (hk_2 + win_condition) <= rows) ; hk++){
 								if (board[hk][hc] == oh){
 									check_oh++;
+									
+								} else if ((board[hk][hc] == empty) || (board[hk][hc] == ex)){
+									check_oh =0;
 								}
 								if (check_oh == win_condition){
 									win = true;
@@ -554,6 +567,9 @@ public class TicTacToeGame{
 							for(hk = 0; (hr + win_condition <=rows )&& (hr + win_condition <=columns ) && (hr + hk < rows) && (hc+hk < columns); hk++){
 								if (board[hr+hk][hc+hk] == ex){
 									check_ex++;
+								
+								} else if ((board[hr+hk][hc+hk] == empty) || (board[hr+hk][hc+hk] == oh)){
+									check_ex =0;
 								}
 								if (check_ex == win_condition){
 									win = true;
@@ -569,6 +585,9 @@ public class TicTacToeGame{
 							for(hk = 0; (hr + win_condition <=rows )&& (hc + win_condition <=columns ) && (hr + hk < rows) && (hc+hk < columns); hk++){
 								if (board[hr+hk][hc + hk] == oh){
 									check_oh++;
+								
+								} else if ((board[hr+hk][hc + hk] == empty) || (board[hr+hk][hc + hk] == ex)){
+									check_oh =0;
 								}
 								if (check_oh == win_condition){
 									win = true;
@@ -592,6 +611,9 @@ public class TicTacToeGame{
 							for(hk = 0; (hr + win_condition <=rows )&& (hc - win_condition >= -1 ) && (hr + hk < rows) && (hc - hk >= 0); hk++){
 								if (board[hr+hk][hc-hk] == ex){
 									check_ex++;	
+									
+								} else if ((board[hr+hk][hc-hk] == empty) || (board[hr+hk][hc-hk] == oh)){
+									check_ex =0;
 								}
 								if (check_ex == win_condition){
 									win = true;
@@ -606,6 +628,9 @@ public class TicTacToeGame{
 							for(hk = 0; (hr + win_condition <=rows )&& (hc - win_condition >=-1 ) && (hr + hk < rows) && (hc - hk >=0); hk++){
 								if (board[hr+hk][hc-hk] == oh){
 									check_oh++;
+								
+								} else if ((board[hr+hk][hc-hk] == empty) || (board[hr+hk][hc-hk] == ex)){
+									check_oh =0;
 								}
 								if (check_oh == win_condition){
 									win = true;
@@ -1051,7 +1076,10 @@ public class TicTacToeGame{
 							for(hk = hc; (hk < columns && (hk_2 + win_condition) <= columns) ; hk++){
 								if (board[hr][hk] == ex){
 									check_ex++;	
-								}
+								
+								} else if ((board[hr][hk] == empty) || (board[hr][hk] == oh)){
+									check_ex =0;
+								} 
 								if (check_ex == win_condition){
 									win = true;
 								}
@@ -1066,7 +1094,10 @@ public class TicTacToeGame{
 							for(hk = hc; (hk < columns && (hk_2 + win_condition) <= columns) ; hk++){
 								if (board[hr][hk] == oh){
 									check_oh++;
-								}
+								
+								} else if ((board[hr][hk] == empty) || (board[hr][hk] == ex)){
+									check_oh =0;
+								} 
 								if (check_oh == win_condition){
 									win = true;
 								}
@@ -1089,7 +1120,10 @@ public class TicTacToeGame{
 							for(hk = hr; (hk < rows && (hk_2 + win_condition) <= rows) ; hk++){
 								if (board[hk][hc] == ex){
 									check_ex++;
-								}
+								
+								} else if ((board[hk][hc] == empty) || (board[hk][hc] == oh)){
+									check_ex =0;
+								} 
 								if (check_ex == win_condition){
 									win = true;
 								}
@@ -1106,7 +1140,10 @@ public class TicTacToeGame{
 							
 								if (board[hk][hc] == oh){
 									check_oh++;
-								}
+								
+								} else if ((board[hk][hc] == empty) || (board[hk][hc] == ex)){
+									check_oh =0;
+								} 
 								if (check_oh == win_condition){
 									win = true;
 								}
@@ -1129,6 +1166,9 @@ public class TicTacToeGame{
 							for(hk = 0; (hr + win_condition <=rows )&& (hr + win_condition <=columns ) && (hr + hk < rows) && (hc+hk < columns); hk++){
 								if (board[hr+hk][hc+hk] == ex){
 									check_ex++;	
+								
+								} else if ((board[hr+hk][hc+hk] == empty) || (board[hr+hk][hc+hk] == oh)){
+									check_ex =0;
 								}
 								if (check_ex == win_condition){
 									win = true;
@@ -1143,6 +1183,9 @@ public class TicTacToeGame{
 							for(hk = 0; (hr + win_condition <=rows )&& (hc + win_condition <=columns ) && (hr + hk < rows) && (hc+hk < columns); hk++){
 								if (board[hr+hk][hc + hk] == oh){
 									check_oh++;
+								
+								} else if ((board[hr+hk][hc + hk] == empty) || (board[hr+hk][hc + hk] == ex)){
+									check_oh =0;
 								}
 								if (check_oh == win_condition){
 									win = true;
@@ -1166,6 +1209,10 @@ public class TicTacToeGame{
 							for(hk = 0; (hr + win_condition <=rows )&& (hc - win_condition >= -1 ) && (hr + hk < rows) && (hc - hk >= 0); hk++){
 								if (board[hr+hk][hc-hk] == ex){
 									check_ex++;	
+								
+								}  else if ((board[hr+hk][hc-hk] == empty) || (board[hr+hk][hc-hk] == oh)){
+									check_ex =0;
+								
 								}
 								if (check_ex == win_condition){
 									win = true;
@@ -1181,6 +1228,9 @@ public class TicTacToeGame{
 							for(hk = 0; (hr + win_condition <=rows )&& (hc - win_condition >=-1 ) && (hr + hk < rows) && (hc - hk >=0); hk++){
 								if (board[hr+hk][hc-hk] == oh){
 									check_oh++;
+								
+								} else if ((board[hr+hk][hc-hk] == empty) || (board[hr+hk][hc-hk] == ex)){
+									check_oh =0;
 								}
 								if (check_oh == win_condition){
 									win = true;
