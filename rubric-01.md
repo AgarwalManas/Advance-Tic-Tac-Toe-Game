@@ -48,10 +48,10 @@
 # Summary
 ---
 
-74/100 final grade  
+74.0/100 final grade || deduct -40.0 || Final mark: 103.6
 
 overall comments: You need to finish every method that has been defined, especially, in this case, the win method.
 Marked by Alex Bisaillion
-<!-- 74 -->
+<!-- 103.6 -->
 <!-- 101007378 -->
 <!-- AgarwalManas -->
